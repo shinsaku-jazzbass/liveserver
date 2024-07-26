@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+main h1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1em;
+}
