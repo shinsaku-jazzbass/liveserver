@@ -21,7 +21,8 @@ session_start();
         <h1>jsでFormからデータ取得</h1>
         <form action="" name="contact">
             <ul>
-                <li><input type="password" name="password" class="form-control" required /></li>
+                <li><input type="text" name="username" value="<?php echo $_GET['doctid']; ?>" required /></li>
+                <li><input type="password" name="password" required /></li>
             </ul>
         </form>
 
